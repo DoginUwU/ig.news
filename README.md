@@ -1,34 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# IG.NEWS
 
-## Getting Started
+![Screenshot_1](https://user-images.githubusercontent.com/59850361/120127361-93451c80-c195-11eb-94f4-a72424059340.png)
 
-First, run the development server:
+Simples site para leitura de posts pagos, utilizando *faunaDB* e *stripe* para o bootcamp Ignite da RocketSeat.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+OBS: Lembre-se de criar um arquivo `env.local` com suas informações de api, você pode encontrar o exemplo deste arquivo em `env.example`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Como inicializar
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### `yarn dev`
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Inicia o projeto em modo de desenvolvimento.\
+Abra [http://localhost:3000](http://localhost:3000) para ver o projeto no navegador.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+A página reinicia enquanto você edita o código.\
+Todos os erros podem ser encontrados no console.
 
-## Learn More
+### `yarn build`
 
-To learn more about Next.js, take a look at the following resources:
+Cria o projeto para o modo de produção, dentro da pasta `build`.\
+Caso tenha duvidas, entre em [deployment](https://facebook.github.io/create-react-app/docs/deployment) para mais informações.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Version History
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* 0.1
+    * Initial Release
+    * Finish all base
