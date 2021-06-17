@@ -7,7 +7,7 @@ import styles from "../styles/home.module.scss";
 interface HomeProps {
   product: {
     priceId: string;
-    price: number;
+    price: number | string;
   };
 }
 

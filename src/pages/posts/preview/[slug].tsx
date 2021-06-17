@@ -53,7 +53,11 @@ export default function PostPreview({ post, priceId }: PostPreviewProps) {
             className={`${styles.content} ${styles.previewContent}`}
             dangerouslySetInnerHTML={{ __html: post.content }}
           />
-          <div className={styles.continueReading} onClick={handleSubscribe}>
+          <div
+            className={styles.continueReading}
+            data-testid="button_subscribe"
+            onClick={handleSubscribe}
+          >
             Wanna continue reading?
             <a>Subscribe now 😃</a>
           </div>
